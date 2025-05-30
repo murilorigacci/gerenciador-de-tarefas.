@@ -31,6 +31,6 @@ console.log(`Com a primeira tarefa removida: ${tarefas}`);
 
 console.log(`Nas Tarefas inclui Ir à academia ? ${tarefas.includes("Ir à academia")}`);
 
+// Etapa 6
 
-
-    
+console.log(`Tarefas como string: ${tarefas.join(', ')}`);

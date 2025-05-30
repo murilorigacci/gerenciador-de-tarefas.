@@ -51,3 +51,10 @@ console.table(tarefas);
 let tarefasNovas = ["Comprar roupa", "Escovar o dente", "Lavar roupa"]
 
 console.log(`Tarefas combinadas: ${tarefas.concat(tarefasNovas).join(',')}`);
+
+// Etapa 10
+
+let palavraNova = "Fazer: "
+let arrayModificado = tarefas.map(elemento => palavraNova + elemento);
+const stringFinal = arrayModificado.join(', ');
+console.log(stringFinal);

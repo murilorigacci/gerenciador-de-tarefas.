@@ -42,6 +42,12 @@ console.log(`Parte da tarefa (índices 2 a 4): ${tarefas.slice(2, 5)}`);
 // Etapa 8
 
 console.table(tarefas);
-let tarefasRemovidas = tarefas.splice(3, 1, "Passera com o pet");
+let tarefasRemovidas = tarefas.splice(3, 1, "Passear com o pet");
 console.table(tarefasRemovidas);
 console.table(tarefas);
+
+// Etapa 9
+
+let tarefasNovas = ["Comprar roupa", "Escovar o dente", "Lavar roupa"]
+
+console.log(`Tarefas combinadas: ${tarefas.concat(tarefasNovas).join(',')}`);

@@ -27,6 +27,10 @@ tarefas.shift()
 
 console.log(`Com a primeira tarefa removida: ${tarefas}`);
 
+// Etapa 5
+
+console.log(`Nas Tarefas inclui Ir à academia ? ${tarefas.includes("Ir à academia")}`);
+
 
 
     
